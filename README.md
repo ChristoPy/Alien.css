@@ -5,7 +5,6 @@ Alien.css is a collection of some of the best styles that i've made, helping mak
 Now using [normalize.css](https://github.com/necolas/normalize.css "normalize.css") to make it works in all browsers. The normalize.css code is already included in the Alien.css.
 
 ## Usage
----
 
 Put the following code line inside the `<head>` tag before any style:
 
@@ -13,13 +12,11 @@ Put the following code line inside the `<head>` tag before any style:
 
 
 ## Dependencies
----
 
 None.
 
 
 ## Examples
----
 
 Background color:
 ```html
@@ -126,12 +123,10 @@ Animation:
 ```
 
 ## Why use this?
----
 
 To have less pain when making styles and learn how to make some useful and modern css styles.
 
 ## To do
----
 
 + Add more examples here  
 + Make a documentation  
@@ -139,7 +134,6 @@ To have less pain when making styles and learn how to make some useful and moder
 + Add more cursors changes  
 
 ## Version
----
 0.1
 
 # Thanks to Nicolas Gallagher and Jonathan Neal by normalize.css!
