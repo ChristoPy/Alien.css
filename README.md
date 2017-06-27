@@ -1,5 +1,4 @@
 # ![Logo](Alien.png "Alien.css")
----
 
 Alien.css is a collection of some of the best styles that i've made, helping make styles with a good (and lazy) way to add styles to HTML elements.<br>
 Now using [normalize.css](https://github.com/necolas/normalize.css "normalize.css") to make it works in all browsers. The normalize.css code is already included in the Alien.css.
