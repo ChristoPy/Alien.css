@@ -1,0 +1,10 @@
+0.1:
+	First release;
+
+0.3:
+	Separated styles by types;
+	Added a main JavaScript file to insert the diferent types of styles by reading a JSON file;
+	Added/fixed buttons, mouse effects, borders;
+	Minor bug fixes;
+
+

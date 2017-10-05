@@ -1,0 +1,123 @@
+/* Positions */
+
+.Top
+{
+	position: absolute;
+	top: 0;
+}
+
+.Bottom
+{
+	position: absolute;
+	bottom: 0;
+}
+
+.Right
+{
+	position: absolute;
+	right: 0;
+}
+
+.Left
+{
+	position: absolute;
+	left: 0;
+}
+
+.TopLeft
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.TopMiddle
+{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translate(-50%,0%);
+	-ms-transform: translate(-50%,0%);
+}
+
+.TopRight
+{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.BottomLeft
+{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.BottomMiddle
+{
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50%,0%);
+	-ms-transform: translate(-50%,0%);
+}
+
+.BottomRight
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.Relative
+{
+	position: relative;
+}
+
+.Absolute
+{
+	position: absolute;
+}
+
+
+/* Floats */
+
+.Center
+{
+	text-align: center;
+}
+
+.Middle
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+}
+
+.Fixed
+{
+	position: fixed;
+}
+
+.Block
+{
+	display: block;
+}
+
+.InlineBlock
+{
+	display: inline-block;
+}
+
+.Inline
+{
+	display: inline;
+}
+
+.Row
+{
+	width: 100%;
+}

@@ -1,0 +1,536 @@
+/*
+ *
+ * Header
+ *
+ */
+.Header
+{
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	font-size: 25px;
+	width: 100%;
+	position: fixed;
+	z-index: 9999999999;
+	padding: 0.50em 4em 0.50em 4em;
+}
+
+.HeaderTitle
+{
+	cursor: default;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	color: #fff;
+}
+
+/* Horizontal Bars */
+.Bar, .BarItem {
+	overflow: hidden;
+	white-space: normal;
+	float: left;
+	width: auto;
+	border: none;
+	outline: none;
+	display: block;
+}
+
+.Bar::before, .Bar::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.BarItem {
+	padding: 8px 16px;
+}
+
+
+/*
+ *
+ * Menu
+ *
+ */
+.LeftSideMenu
+{
+	font-size: 25px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 10em;
+	overflow: auto;
+	float: left;
+	display: block;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	-moz-box-orient: vertical;
+	-webkit-box-orient: vertical;
+	-ms-box-orient: vertical;
+	-o-box-orient: vertical;
+	box-orient: vertical;
+	-moz-box-direction: normal;
+	-webkit-box-direction: normal;
+	-ms-box-direction: normal;
+	-o-box-direction: normal;
+	box-direction: normal;
+	-moz-flex-direction: column;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	z-index: 100;
+}
+
+.LeftSideMenuItem
+{
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	font-size: 0.75em;
+	padding: 2em 1em;
+	text-align: center;
+	cursor: default;
+}
+
+
+
+/*
+ *
+ * Sections
+ *
+ */
+.SectionTitle
+{
+	text-align: center;
+	margin: 2%;
+	font-size: 1.75em;
+}
+
+.SectionSubtitle
+{
+	text-align: center;
+	margin: 2%;
+	font-size: 1.25em;
+}
+
+
+
+/*
+ *
+ * Revealers
+ *
+ */
+.RevealerContent
+{
+	display: none;
+	margin: 1%;
+}
+
+.RevealerHeader
+{
+	text-align: left;
+	border-radius: 5px 5px;
+	border: 2px solid #f1f1f1;
+	padding: 1% 1% 1% 0;
+}
+
+.RevealerOpener
+{
+	display: inline-block;
+	border-right: 1px solid #f1f1f1;
+	padding: 0 1.5% 0 1.5%;
+	color: #c0c0c0;
+	text-align: center;
+	margin-right: 5px;
+}
+
+
+/*
+ *
+ * Separators
+ *
+ */
+.HorizontalSeparator
+{
+	background-color: #f1f1f1;
+	height: 3px;
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.HorizontalThinSeparator
+{
+	background-color: #f1f1f1;
+	height: 1px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+
+/*
+ *
+ * Cursor changes
+ *
+ */
+.NoTextSelect
+{
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+}
+
+.TextSelect
+{
+	user-select: auto;
+	-moz-user-select: auto;
+	-webkit-user-select: auto;
+	-o-user-select: auto;
+	-ms-user-select: auto;
+}
+
+.NormalCursor
+{
+	cursor: default;
+}
+
+.PointerCursor
+{
+	cursor: pointer;
+}
+
+/* Background changes at mouse hover */
+.WhiteHover:hover
+{
+	background: #fff;
+}
+
+.BlueHover:hover
+{
+	background: #2196F3;
+}
+
+.GreenHover:hover
+{
+	background: #4CAF50;
+}
+
+.RedHover:hover
+{
+	background: #ff0000;
+}
+
+.BlackHover:hover
+{
+	background: #000;
+}
+
+.GrayHover:hover
+{
+	background: #c0c0c0;
+}
+
+/* Text color changes at hover */
+.WhiteTextHover:hover
+{
+	color: #fff;
+}
+
+.BlueTextHover:hover
+{
+	color: #2196F3;
+}
+
+.GreenTextHover:hover
+{
+	color: #4CAF50;
+}
+
+.RedTextHover:hover
+{
+	color: #ff0000;
+}
+
+.BlackTextHover:hover
+{
+	color: #000;
+}
+
+.GrayTextHover:hover
+{
+	color: #c0c0c0;
+}
+
+
+
+/*
+ *
+ * Border styles
+ *
+ */
+.SmallRound
+{
+	border-radius: 3px;
+}
+
+.BigRound
+{
+	border-radius: 10px;
+}
+
+.Circle
+{
+	border-radius: 50%;
+}
+
+.NoBorders
+{
+	border: none;
+}
+
+/* Border colors */
+
+.TopWhiteBorder
+{
+	border-top: 3px solid #fff;
+}
+
+.TopWhiteThinBorder
+{
+	border-top: 1px solid #fff;
+}
+
+.TopBlueBorder
+{
+	border-top: 3px solid #2196F3;
+}
+
+.TopBlueThinBorder
+{
+	border-top: 1px solid #2196F3;
+}
+
+.TopBlackBorder
+{
+	border-top: 3px solid #000;
+}
+
+.TopBlackThinBorder
+{
+	border-top: 1px solid #000;
+}
+
+.BottomWhiteBorder
+{
+	border-bottom: 3px solid #fff;
+}
+
+.BottomWhiteThinBorder
+{
+	border-bottom: 1px solid #fff;
+}
+
+.BottomBlueBorder
+{
+	border-bottom: 3px solid #2196F3;
+}
+
+.BottomBlueThinBorder
+{
+	border-bottom: 1px solid #2196F3;
+}
+
+.BottomBlackBorder
+{
+	border-bottom: 3px solid #000;
+}
+
+.BottomBlackThinBorder
+{
+	border-bottom: 1px solid #000;
+}
+
+.BottomGrayBorder
+{
+	border-bottom: 3px solid #c0c0c0;
+}
+
+.BottomGrayThinBorder
+{
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.WhiteBorder
+{
+	border: 3px solid #fff !important;
+}
+
+.WhiteThinBorder
+{
+	border: 1px solid #fff !important;
+}
+
+.BlueBorder
+{
+	border: 3px solid #2196F3 !important;
+}
+
+.BlueThinBorder
+{
+	border: 1px solid #2196F3 !important;
+}
+
+.GreenBorder
+{
+	border: 3px solid #4CAF50 !important;
+}
+
+.GreenThinBorder
+{
+	border: 1px solid #4CAF50 !important;
+}
+
+.RedBorder
+{
+	border: 3px solid #ff0000 !important;
+}
+
+.RedThinBorder
+{
+	border: 1px solid #ff0000 !important;
+}
+
+.BlackBorder
+{
+	border: 3px solid #000 !important;
+}
+
+.BlackThinBorder
+{
+	border: 1px solid #000 !important;
+}
+
+.GrayBorder
+{
+	border: 3px solid #c0c0c0 !important;
+}
+
+.GrayThinBorder
+{
+	border: 1px solid #c0c0c0 !important;
+}
+
+
+
+/*
+ *
+ * Background colors
+ *
+ */
+.White
+{
+	background-color: #fff;
+}
+
+.Blue
+{
+	background-color: #2196F3;
+}
+
+.Green
+{
+	background-color: #4CAF50;
+}
+
+.Red
+{
+	background-color: #ff0000;
+}
+
+.Black
+{
+	background-color: #000;
+}
+
+.Gray
+{
+	background-color: #c0c0c0;
+}
+
+
+
+
+/*
+ *
+ * Text colors
+ *
+ */
+.WhiteText
+{
+	color: #fff;
+}
+
+.BlueText
+{
+	color: #2196F3;
+}
+
+.GreenText
+{
+	color: #4CAF50;
+}
+
+.RedText
+{
+	color: #ff0000;
+}
+
+.BlackText
+{
+	color: #000;
+}
+
+.GrayText
+{
+	color: #c0c0c0;
+}
+
+
+
+/*
+ *
+ * Shadows
+ *
+ */
+.BottomSmallShadow
+{
+	box-shadow: 0 5px 5px rgba(0,0,0,.1);
+}
+
+.BottomBigShadow
+{
+	box-shadow: 0 5px 15px rgba(0,0,0,.2);
+}
+
+.TopSmallShadow
+{
+	box-shadow: 0 -5px 5px rgba(0,0,0,.1);
+}
+
+.TopBigShadow
+{
+	box-shadow: 0 -5px 15px rgba(0,0,0,.2);
+}
+
+
+
+

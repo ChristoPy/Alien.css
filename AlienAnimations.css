@@ -1,0 +1,948 @@
+/* Animations */
+
+.OpacityAnimation
+{
+	-webkit-animation: Opacity 0.8s;
+	animation: Opacity 0.8s;
+}
+
+@-webkit-keyframes Opacity
+{
+	from
+	{
+		opacity: 0
+	}
+	to
+	{
+		opacity: 1
+	}
+}
+
+@keyframes Opacity
+{
+	from
+	{
+		opacity: 0
+	}
+	to
+	{
+		opacity: 1
+	}
+}
+
+.FadingInAnimation
+{
+	-webkit-animation: FadingIn 10s infinite;
+	animation: FadingIn 10s infinite;
+}
+
+@-webkit-keyframes FadingIn
+{
+	0%
+	{
+		opacity: 0;
+	}
+	50%
+	{
+		opacity: 1;
+	}
+	100%
+	{
+		opacity: 0;
+	}
+}
+
+@keyframes FadingIn
+{
+	0%
+	{
+		opacity: 0;
+	}
+	50%
+	{
+		opacity: 1;
+	}
+	100%
+	{
+		opacity: 0;
+	}
+}
+
+.FadingOutAnimation
+{
+	-webkit-animation: FadingOut 10s infinite;
+	animation: FadingOut 10s infinite;
+}
+
+@-webkit-keyframes FadingOut
+{
+	0%
+	{
+		opacity: 1;
+	}
+	50%
+	{
+		opacity: 0;
+	}
+	100%
+	{
+		opacity: 1;
+	}
+}
+
+@keyframes FadingOut
+{
+	0%
+	{
+		opacity: 1;
+	}
+	50%
+	{
+		opacity: 0;
+	}
+	100%
+	{
+		opacity: 1;
+	}
+}
+
+.FadeInAnimation
+{
+	-webkit-animation: FadeIn 10s;
+	animation: FadeIn 10s;
+}
+
+@-webkit-keyframes FadeIn
+{
+	0%
+	{
+		opacity: 0;
+	}
+	100%
+	{
+		opacity: 1;
+	}
+}
+
+@keyframes FadeIn
+{
+	0%
+	{
+		opacity: 0;
+	}
+	100%
+	{
+		opacity: 1;
+	}
+}
+
+.FadeOutAnimation
+{
+	-webkit-animation: FadeOut 10s;
+	animation: FadeOut 10s;
+}
+
+
+@-webkit-keyframes FadeOut
+{
+	0%
+	{
+		opacity: 1;
+	}
+	100%
+	{
+		opacity: 0;
+	}
+}
+
+@keyframes FadeOut
+{
+	0%
+	{
+		opacity: 1;
+	}
+	100%
+	{
+		opacity: 0;
+	}
+}
+
+.TopToDownAnimation
+{
+	-webkit-animation: TopToDown 5s;
+	animation: TopToDown 5s;
+}
+
+@-webkit-keyframes TopToDown
+{
+	from
+	{
+		margin-top: -15em;
+	}
+	to
+	{
+		margin-top: 0;
+	}
+}
+
+@keyframes TopToDown
+{
+	from
+	{
+		margin-top: -15em;
+	}
+	to
+	{
+		margin-top: 0;
+	}
+}
+
+.DownToTopAnimation
+{
+	-webkit-animation: DownToTop 5s;
+	animation: DownToTop 5s;
+}
+
+@-webkit-keyframes DownToTop
+{
+	from
+	{
+		margin-top: 0;
+	}
+	to
+	{
+		margin-top: -15em;
+	}
+}
+
+@keyframes DownToTop
+{
+	from
+	{
+		margin-top: 0;
+	}
+	to
+	{
+		margin-top: -15em;
+	}
+}
+
+.LeftToRightAnimation
+{
+	-webkit-animation: LeftToRight 5s;
+	animation: LeftToRight 5s;
+}
+
+@-webkit-keyframes LeftToRight
+{
+	from
+	{
+		margin-left: -10em;
+	}
+	to
+	{
+		margin-left: 0em;
+	}
+}
+
+@keyframes LeftToRight
+{
+	from
+	{
+		margin-left: -10em;
+	}
+	to
+	{
+		margin-left: 0em;
+	}
+}
+
+.RightToLeftAnimation
+{
+	-webkit-animation: RightToLeft 5s;
+	animation: RightToLeft 5s;
+}
+
+@-webkit-keyframes RightToLeft
+{
+	from
+	{
+		margin-left: 10em;
+	}
+	to
+	{
+		margin-left: 0em;
+	}
+}
+
+@keyframes RightToLeft
+{
+	from
+	{
+		margin-left: 10em;
+	}
+	to
+	{
+		margin-left: 0em;
+	}
+}
+
+.SlideToTopAnimation
+{
+	-webkit-animation: SlideToTop 3s;
+	animation: SlideToTop 3s;
+}
+
+@-webkit-keyframes SlideToTop
+{
+	from
+	{
+		margin-top: 0;
+	}
+	to
+	{
+		margin-top: -25%;
+	}
+}
+
+@keyframes SlideToTop
+{
+	from
+	{
+		margin-top: 0;
+	}
+	to
+	{
+		margin-top: -25%;
+	}
+}
+
+.SlideToDownAnimation
+{
+	-webkit-animation: SlideToDown 3s;
+	animation: SlideToDown 3s;
+}
+
+@-webkit-keyframes SlideToDown
+{
+	from
+	{
+		margin-top: 0;
+	}
+	to
+	{
+		margin-top: 25%;
+	}
+}
+
+@keyframes SlideToDown
+{
+	from
+	{
+		margin-top: 0;
+	}
+	to
+	{
+		margin-top: 25%;
+	}
+}
+
+.SlideToRightAnimation
+{
+	-webkit-animation: SlideToRight 3s;
+	animation: SlideToRight 3s;
+}
+
+@-webkit-keyframes SlideToRight
+{
+	from
+	{
+		margin-left: 0;
+	}
+	to
+	{
+		margin-left: 25%;
+	}
+}
+
+@keyframes SlideToRight
+{
+	from
+	{
+		margin-left: 0;
+	}
+	to
+	{
+		margin-left: 25%;
+	}
+}
+
+.SlideToLeftAnimation
+{
+	-webkit-animation: SlideToLeft 3s;
+	animation: SlideToLeft 3s;
+}
+
+@-webkit-keyframes SlideToLeft
+{
+	from
+	{
+		margin-left: 0;
+	}
+	to
+	{
+		margin-left: -25%;
+	}
+}
+
+@keyframes SlideToLeft
+{
+	from
+	{
+		margin-left: 0;
+	}
+	to
+	{
+		margin-left: -25%;
+	}
+}
+
+.WhiteToBlueAnimation
+{
+	-webkit-animation: WhiteToBlue 3s;
+	animation: WhiteToBlue 3s;
+}
+
+@-webkit-keyframes WhiteToBlue
+{
+	from
+	{
+		background-color: #fff;
+	}
+	to
+	{
+		background-color: #2196F3;
+	}
+}
+
+@keyframes WhiteToBlue
+{
+	from
+	{
+		background-color: #fff;
+	}
+	to
+	{
+		background-color: #2196F3;
+	}
+}
+
+.WhiteToGreenAnimation
+{
+	-webkit-animation: WhiteToGreen 3s;
+	animation: WhiteToGreen 3s;
+}
+
+@-webkit-keyframes WhiteToGreen
+{
+	from
+	{
+		background-color: #fff;
+	}
+	to
+	{
+		background-color: #4CAF50;
+	}
+}
+
+@keyframes WhiteToGreen
+{
+	from
+	{
+		background-color: #fff;
+	}
+	to
+	{
+		background-color: #4CAF50;
+	}
+}
+
+.WhiteToRedAnimation
+{
+	-webkit-animation: WhiteToRed 3s;
+	animation: WhiteToRed 3s;
+}
+
+@-webkit-keyframes WhiteToRed
+{
+	from
+	{
+		background-color: #fff;
+	}
+	to
+	{
+		background-color: #ff0000;
+	}
+}
+
+@keyframes WhiteToRed
+{
+	from
+	{
+		background-color: #fff;
+	}
+	to
+	{
+		background-color: #ff0000;
+	}
+}
+
+.WhiteToBlackAnimation
+{
+	-webkit-animation: WhiteToBlack 3s;
+	animation: WhiteToBlack 3s;
+}
+
+@-webkit-keyframes WhiteToBlack
+{
+	from
+	{
+		background-color: #fff;
+	}
+	to
+	{
+		background-color: #000;
+	}
+}
+
+@keyframes WhiteToBlack
+{
+	from
+	{
+		background-color: #fff;
+	}
+	to
+	{
+		background-color: #000;
+	}
+}
+
+.BlueToWhiteAnimation
+{
+	-webkit-animation: BlueToWhite 3s;
+	animation: BlueToWhite 3s;
+}
+
+@-webkit-keyframes BlueToWhite
+{
+	from
+	{
+		background-color: #2196F3;
+	}
+	to
+	{
+		background-color: #fff;
+	}
+}
+
+@keyframes BlueToWhite
+{
+	from
+	{
+		background-color: #2196F3;
+	}
+	to
+	{
+		background-color: #fff;
+	}
+}
+
+.BlueToGreenAnimation
+{
+	-webkit-animation: BlueToGreen 3s;
+	animation: BlueToGreen 3s;
+}
+
+@-webkit-keyframes BlueToGreen
+{
+	from
+	{
+		background-color: #2196F3;
+	}
+	to
+	{
+		background-color: #4CAF50;
+	}
+}
+
+@keyframes BlueToGreen
+{
+	from
+	{
+		background-color: #2196F3;
+	}
+	to
+	{
+		background-color: #4CAF50;
+	}
+}
+
+.BlueToRedAnimation
+{
+	-webkit-animation: BlueToRed 3s;
+	animation: BlueToRed 3s;
+}
+
+@-webkit-keyframes BlueToRed
+{
+	from
+	{
+		background-color: #2196F3;
+	}
+	to
+	{
+		background-color: #ff0000;
+	}
+}
+
+@keyframes BlueToRed
+{
+	from
+	{
+		background-color: #2196F3;
+	}
+	to
+	{
+		background-color: #ff0000;
+	}
+}
+
+.BlueToWhiteAnimation
+{
+	-webkit-animation: BlueToWhite 3s;
+	animation: BlueToWhite 3s;
+}
+
+@-webkit-keyframes BlueToWhite
+{
+	from
+	{
+		background-color: #2196F3;
+	}
+	to
+	{
+		background-color: #fff;
+	}
+}
+
+@keyframes BlueToWhite
+{
+	from
+	{
+		background-color: #2196F3;
+	}
+	to
+	{
+		background-color: #fff;
+	}
+}
+
+.GreenToWhiteAnimation
+{
+	-webkit-animation: GreenToWhite 3s;
+	animation: GreenToWhite 3s;
+}
+
+@-webkit-keyframes GreenToWhite
+{
+	from
+	{
+		background-color: #4CAF50;
+	}
+	to
+	{
+		background-color: #fff;
+	}
+}
+
+@keyframes GreenToWhite
+{
+	from
+	{
+		background-color: #4CAF50;
+	}
+	to
+	{
+		background-color: #fff;
+	}
+}
+
+.GreenToBlueAnimation
+{
+	-webkit-animation: GreenToBlue 3s;
+	animation: GreenToBlue 3s;
+}
+
+@-webkit-keyframes GreenToWhite
+{
+	from
+	{
+		background-color: #4CAF50;
+	}
+	to
+	{
+		background-color: #2196F3;
+	}
+}
+
+@keyframes GreenToBlue
+{
+	from
+	{
+		background-color: #4CAF50;
+	}
+	to
+	{
+		background-color: #2196F3;
+	}
+}
+
+.GreenToRedAnimation
+{
+	-webkit-animation: GreenToRed 3s;
+	animation: GreenToRed 3s;
+}
+
+@-webkit-keyframes GreenToRed
+{
+	from
+	{
+		background-color: #4CAF50;
+	}
+	to
+	{
+		background-color: #ff0000;
+	}
+}
+
+@keyframes GreenToRed
+{
+	from
+	{
+		background-color: #4CAF50;
+	}
+	to
+	{
+		background-color: #ff0000;
+	}
+}
+
+.GreenToBlackAnimation
+{
+	-webkit-animation: GreenToBlack 3s;
+	animation: GreenToBlack 3s;
+}
+
+@-webkit-keyframes GreenToBlack
+{
+	from
+	{
+		background-color: #4CAF50;
+	}
+	to
+	{
+		background-color: #000;
+	}
+}
+
+@keyframes GreenToBlack
+{
+	from
+	{
+		background-color: #4CAF50;
+	}
+	to
+	{
+		background-color: #000;
+	}
+}
+
+.RedToWhiteAnimation
+{
+	-webkit-animation: RedToWhite 3s;
+	animation: RedToWhite 3s;
+}
+
+@-webkit-keyframes RedToWhite
+{
+	from
+	{
+		background-color: #ff0000;
+	}
+	to
+	{
+		background-color: #fff;
+	}
+}
+
+@keyframes RedToWhite
+{
+	from
+	{
+		background-color: #ff0000;
+	}
+	to
+	{
+		background-color: #fff;
+	}
+}
+
+.RedToGreenAnimation
+{
+	-webkit-animation: RedToGreen 3s;
+	animation: RedToGreen 3s;
+}
+
+@-webkit-keyframes RedToGreen
+{
+	from
+	{
+		background-color: #ff0000;
+	}
+	to
+	{
+		background-color: #4CAF50;
+	}
+}
+
+@keyframes RedToGreen
+{
+	from
+	{
+		background-color: #ff0000;
+	}
+	to
+	{
+		background-color: #4CAF50;
+	}
+}
+
+.RedToBlackAnimation
+{
+	-webkit-animation: RedToBlack 3s;
+	animation: RedToBlack 3s;
+}
+
+@-webkit-keyframes RedToBlack
+{
+	from
+	{
+		background-color: #ff0000;
+	}
+	to
+	{
+		background-color: #000;
+	}
+}
+
+@keyframes RedToBlack
+{
+	from
+	{
+		background-color: #ff0000;
+	}
+	to
+	{
+		background-color: #000;
+	}
+}
+
+.BlackToWhiteAnimation
+{
+	-webkit-animation: BlackToWhite 3s;
+	animation: BlackToWhite 3s;
+}
+
+@-webkit-keyframes BlackToWhite
+{
+	from
+	{
+		background-color: #000;
+	}
+	to
+	{
+		background-color: #fff;
+	}
+}
+
+@keyframes BlackToWhite
+{
+	from
+	{
+		background-color: #000;
+	}
+	to
+	{
+		background-color: #fff;
+	}
+}
+
+.BlackToBlueAnimation
+{
+	-webkit-animation: BlackToBlue 3s;
+	animation: BlackToBlue 3s;
+}
+
+@-webkit-keyframes BlackToBlue
+{
+	from
+	{
+		background-color: #000;
+	}
+	to
+	{
+		background-color: #2196F3;
+	}
+}
+
+@keyframes BlackToBlue
+{
+	from
+	{
+		background-color: #000;
+	}
+	to
+	{
+		background-color: #2196F3;
+	}
+}
+
+.BlackToRedAnimation
+{
+	-webkit-animation: BlackToRed 3s;
+	animation: BlackToRed 3s;
+}
+
+@-webkit-keyframes BlackToRed
+{
+	from
+	{
+		background-color: #000;
+	}
+	to
+	{
+		background-color: #ff0000;
+	}
+}
+
+@keyframes BlackToRed
+{
+	from
+	{
+		background-color: #000;
+	}
+	to
+	{
+		background-color: #ff0000;
+	}
+}
